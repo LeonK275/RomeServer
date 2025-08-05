@@ -22,11 +22,7 @@ public class App {
         allQuestions.add( question1);
         allQuestions.add(question2);
 
-        for(QuizQuestion question : allQuestions){
-            if(question.getQuestionID() == 1){
 
-            }
-        }
 
 
         get("/", (req, res) -> "Salve Roma!");
@@ -34,6 +30,19 @@ public class App {
         get("/quiz", (req, res) -> jsonF1);
         get("/quiz/all", ((request, response) -> gson.toJson(allQuestions)));
         post("/answer",((request, response) -> {
+
+            AnswerRequest incoming = gson.fromJson(request.body(), AnswerRequest.class);
+            for(QuizQuestion question : allQuestions){
+                if (incoming.getQuestionID() == question.getQuestionID()){
+                    if(incoming.getAnswer() == question.getCorrect()){
+                        return "Richtig";
+                    }
+                    else {
+                        return "Falsch";
+                    }
+                }
+            }
+
             return null;
         }));
 

@@ -9,7 +9,7 @@ public class AnswerRequest {
         this.answer = answer;
     }
 
-    public int getQuestion() {
+    public int getQuestionID() {
         return questionID;
     }
 

@@ -1,8 +1,8 @@
 package org.romequiz;
 
 public class AnswerRequest {
-    private int questionID;
-    private int answer;
+    private final int questionID;
+    private final int answer;
 
     public AnswerRequest(int questionID, int answer) {
         this.questionID = questionID;

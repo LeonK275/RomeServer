@@ -2,121 +2,221 @@
   {
     "questionID": 1,
     "question": "Wer war der erste Kaiser Roms?",
-    "options": ["Julius Cäsar", "Augustus", "Nero"],
+    "options": [
+      "Julius Cäsar",
+      "Augustus",
+      "Nero"
+    ],
     "correct": 1
   },
   {
     "questionID": 2,
     "question": "Wann wurde Rom gegründet?",
-    "options": ["753 v. Chr.", "1 n. Chr.", "509 v. Chr."],
+    "options": [
+      "753 v. Chr.",
+      "1 n. Chr.",
+      "509 v. Chr."
+    ],
     "correct": 0
   },
   {
     "questionID": 3,
     "question": "Wie hieß das höchste Amt in der römischen Republik?",
-    "options": ["Konsul", "Kaiser", "Senator"],
+    "options": [
+      "Konsul",
+      "Kaiser",
+      "Senator"
+    ],
     "correct": 0
   },
   {
     "questionID": 4,
     "question": "Was war die Amtssprache im Römischen Reich?",
-    "options": ["Altgriechisch", "Latein", "Hebräisch"],
+    "options": [
+      "Altgriechisch",
+      "Latein",
+      "Hebräisch"
+    ],
     "correct": 1
   },
   {
     "questionID": 5,
     "question": "Welcher Gott galt als oberster römischer Gott?",
-    "options": ["Mars", "Jupiter", "Neptun"],
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Neptun"
+    ],
     "correct": 1
   },
   {
     "questionID": 6,
     "question": "Wie starb Julius Cäsar?",
-    "options": ["Er wurde erstochen", "Er ertrank", "Er wurde vergiftet"],
+    "options": [
+      "Er wurde erstochen",
+      "Er ertrank",
+      "Er wurde vergiftet"
+    ],
     "correct": 0
   },
   {
     "questionID": 7,
     "question": "Welche Einheit bildete das Rückgrat der römischen Armee?",
-    "options": ["Kohorte", "Legion", "Phalanx"],
+    "options": [
+      "Kohorte",
+      "Legion",
+      "Phalanx"
+    ],
     "correct": 1
   },
   {
     "questionID": 8,
     "question": "Welches Bauwerk diente zur Wasserversorgung in Rom?",
-    "options": ["Kolosseum", "Aquädukt", "Forum Romanum"],
+    "options": [
+      "Kolosseum",
+      "Aquädukt",
+      "Forum Romanum"
+    ],
     "correct": 1
   },
   {
     "questionID": 9,
     "question": "Was ist ein Triumphzug?",
-    "options": ["Ein religiöses Fest", "Ein Siegesumzug eines Feldherrn", "Ein politisches Amt"],
+    "options": [
+      "Ein religiöses Fest",
+      "Ein Siegesumzug eines Feldherrn",
+      "Ein politisches Amt"
+    ],
     "correct": 1
   },
   {
     "questionID": 10,
     "question": "Welcher römische Kaiser ließ das Kolosseum erbauen?",
-    "options": ["Augustus", "Nero", "Vespasian"],
+    "options": [
+      "Augustus",
+      "Nero",
+      "Vespasian"
+    ],
     "correct": 2
   },
   {
     "questionID": 11,
     "question": "Wie hieß das Zentrum des politischen Lebens in Rom?",
-    "options": ["Kapitol", "Forum Romanum", "Senat"],
+    "options": [
+      "Kapitol",
+      "Forum Romanum",
+      "Senat"
+    ],
     "correct": 1
   },
   {
     "questionID": 12,
     "question": "Welche berühmte Straße verband Rom mit Süditalien?",
-    "options": ["Via Appia", "Via Flaminia", "Via Augusta"],
+    "options": [
+      "Via Appia",
+      "Via Flaminia",
+      "Via Augusta"
+    ],
     "correct": 0
   },
   {
     "questionID": 13,
     "question": "Wie viele Konsuln gab es gleichzeitig in der Republik?",
-    "options": ["Einen", "Zwei", "Drei"],
+    "options": [
+      "Einen",
+      "Zwei",
+      "Drei"
+    ],
     "correct": 1
   },
   {
     "questionID": 14,
-    "question": "Was bedeutet 'Senatus Populusque Romanus'?",
-    "options": ["Das Volk herrscht", "Der römische Staat", "Der Senat und das Volk von Rom"],
+    "question": "Was bedeutet \u0027Senatus Populusque Romanus\u0027?",
+    "options": [
+      "Das Volk herrscht",
+      "Der römische Staat",
+      "Der Senat und das Volk von Rom"
+    ],
     "correct": 2
   },
   {
     "questionID": 15,
     "question": "Welche Kleidung trugen römische Bürger bei offiziellen Anlässen?",
-    "options": ["Toga", "Tunika", "Rüstung"],
+    "options": [
+      "Toga",
+      "Tunika",
+      "Rüstung"
+    ],
     "correct": 0
   },
   {
     "questionID": 16,
     "question": "Welcher Vulkan zerstörte Pompeji?",
-    "options": ["Ätna", "Vesuv", "Stromboli"],
+    "options": [
+      "Ätna",
+      "Vesuv",
+      "Stromboli"
+    ],
     "correct": 1
   },
   {
     "questionID": 17,
     "question": "Wie hieß das römische Götteroberhaupt?",
-    "options": ["Zeus", "Saturn", "Jupiter"],
+    "options": [
+      "Zeus",
+      "Saturn",
+      "Jupiter"
+    ],
     "correct": 2
   },
   {
     "questionID": 18,
     "question": "Wer waren die Patrizier?",
-    "options": ["Soldaten", "Adelige", "Sklaven"],
+    "options": [
+      "Soldaten",
+      "Adelige",
+      "Sklaven"
+    ],
     "correct": 1
   },
   {
     "questionID": 19,
     "question": "Welcher römische Kaiser teilte das Reich endgültig?",
-    "options": ["Trajan", "Diokletian", "Tiberius"],
+    "options": [
+      "Trajan",
+      "Diokletian",
+      "Tiberius"
+    ],
     "correct": 1
   },
   {
     "questionID": 20,
-    "question": "Was war ein 'Gladiator' im antiken Rom?",
-    "options": ["Politiker", "Tempelpriester", "Kämpfer in der Arena"],
+    "question": "Was war ein \u0027Gladiator\u0027 im antiken Rom?",
+    "options": [
+      "Politiker",
+      "Tempelpriester",
+      "Kämpfer in der Arena"
+    ],
     "correct": 2
+  },
+  {
+    "questionID": 21,
+    "question": "Welches Tier symbolisierte das römische Imperium?",
+    "options": [
+      "Adler",
+      "Wolf",
+      "Löwe"
+    ],
+    "correct": 0
+  },
+  {
+    "questionID": 22,
+    "question": "Was war Kleopatra?",
+    "options": [
+      "König",
+      "Pharao",
+      "Löwe"
+    ],
+    "correct": 0
   }
 ]

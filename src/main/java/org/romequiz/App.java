@@ -3,10 +3,14 @@ package org.romequiz;
 import com.google.gson.Gson;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.io.FileReader;
+
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
@@ -20,7 +24,7 @@ import static spark.Spark.*;
 public class App {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         Type questionListType = new TypeToken<List<QuizQuestion>>() {}.getType();
         List<QuizQuestion> allQuestions = gson.fromJson(new FileReader("src/main/resources/questions.json"), questionListType);
 
@@ -117,6 +121,22 @@ public class App {
             response.status(404);
             AnswerResponse answer = new AnswerResponse(false, "Frage nicht gefunden!");
             return gson.toJson(answer);
+        }));
+
+        // POST NEW QUESTION
+        post("/quiz/newquestion", ((request, response) -> {
+
+            Type questionListType2 = new TypeToken<QuizQuestion>() {}.getType();
+            QuizQuestion question = gson.fromJson(request.body(), questionListType2);
+            allQuestions.add(question);
+
+            try {
+                FileWriter writer = new FileWriter("src/main/resources/questions.json");
+                gson.toJson(allQuestions, writer);
+                writer.close();
+            }catch (IOException e) {e.printStackTrace();}
+
+            return gson.toJson(new AnswerResponse(true, "Frage erfolgreih gespeichert"));
         }));
 
 

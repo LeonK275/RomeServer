@@ -28,6 +28,9 @@ public class App {
         Type questionListType = new TypeToken<List<QuizQuestion>>() {}.getType();
         List<QuizQuestion> allQuestions = gson.fromJson(new FileReader("src/main/resources/questions.json"), questionListType);
 
+        port(4567); // das hast du wahrscheinlich schon
+        ipAddress("0.0.0.0");
+
 
         /*QuizQuestion question1 = new QuizQuestion(1, "Wer war der erste Kaiser Roms?", List.of("Julius Cäsar", "Augustus", "Nero"), 1);
         QuizQuestion question2 = new QuizQuestion(2, "Wann wurde Rom gegründet?", List.of("753 v. Chr.", "1 n. Chr", "509 v. Chr"), 0);

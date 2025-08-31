@@ -209,14 +209,487 @@
     ],
     "correct": 0
   },
-  {
-    "questionID": 22,
-    "question": "Was war Kleopatra?",
-    "options": [
-      "König",
-      "Pharao",
-      "Löwe"
-    ],
-    "correct": 0
-  }
+  [
+    {
+      "questionID": 23,
+      "question": "Wer war der letzte Kaiser des Weströmischen Reiches?",
+      "options": ["Romulus Augustulus", "Odoaker", "Theodosius I"],
+      "correct": 0
+    },
+    {
+      "questionID": 24,
+      "question": "In welcher Schlacht besiegte Caesar Pompeius 48 v. Chr.?",
+      "options": ["Pharsalos", "Zama", "Actium"],
+      "correct": 0
+    },
+    {
+      "questionID": 25,
+      "question": "Wie heißt die früheste schriftliche Gesetzessammlung Roms?",
+      "options": ["Zwölftafelgesetz", "Corpus Iuris Civilis", "Edikt von Mailand"],
+      "correct": 0
+    },
+    {
+      "questionID": 26,
+      "question": "Welcher Kaiser erließ 313 n. Chr. das Toleranzedikt von Mailand?",
+      "options": ["Diokletian", "Konstantin der Große", "Theodosius I"],
+      "correct": 1
+    },
+    {
+      "questionID": 27,
+      "question": "Wo verläuft der Hadrianswall?",
+      "options": ["Hispania", "Britannien", "Ägypten"],
+      "correct": 1
+    },
+    {
+      "questionID": 28,
+      "question": "Was war eine römische \"Villa\"?",
+      "options": ["Stadtviertel", "Landgut", "Badehaus"],
+      "correct": 1
+    },
+    {
+      "questionID": 29,
+      "question": "Welche Magistrate waren u. a. für Finanzen zuständig?",
+      "options": ["Zensoren", "Quästoren", "Prätoren"],
+      "correct": 1
+    },
+    {
+      "questionID": 30,
+      "question": "Wer hielt die „Catilinarischen Reden“?",
+      "options": ["Cicero", "Cato der Ältere", "Vergil"],
+      "correct": 0
+    },
+    {
+      "questionID": 31,
+      "question": "Was bezeichnet „Pax Romana“?",
+      "options": ["Römische Kriegsflotte", "Lange Friedenszeit unter den Kaisern", "Steuerrecht"],
+      "correct": 1
+    },
+    {
+      "questionID": 32,
+      "question": "Welche römische Silbermünze war besonders verbreitet?",
+      "options": ["Denar", "Sesterz", "Aureus"],
+      "correct": 0
+    },
+    {
+      "questionID": 33,
+      "question": "Was war eine „Insula“?",
+      "options": ["Tempelbezirk", "Mietshaus", "Getreidespeicher"],
+      "correct": 1
+    },
+    {
+      "questionID": 34,
+      "question": "Wer war Spartacus?",
+      "options": ["Römischer Kaiser", "Sklavenführer", "Griechischer Philosoph"],
+      "correct": 1
+    },
+    {
+      "questionID": 35,
+      "question": "Welches Kurzschwert nutzten römische Legionäre?",
+      "options": ["Xiphos", "Gladius", "Kopis"],
+      "correct": 1
+    },
+    {
+      "questionID": 36,
+      "question": "Wie heißt die Schildkrötenformation der Legionen?",
+      "options": ["Orbis", "Testudo", "Cuneus"],
+      "correct": 1
+    },
+    {
+      "questionID": 37,
+      "question": "Was war die „Lorica segmentata“?",
+      "options": ["Helmtyp", "Rüstung aus Metallstreifen", "Wurfspieß"],
+      "correct": 1
+    },
+    {
+      "questionID": 38,
+      "question": "Wer trug die Adlerstandarte der Legion?",
+      "options": ["Aquilifer", "Signifer", "Imaginifer"],
+      "correct": 0
+    },
+    {
+      "questionID": 39,
+      "question": "Wie hieß die schwere Wurflanze der Legionäre?",
+      "options": ["Pilum", "Hasta", "Verutum"],
+      "correct": 0
+    },
+    {
+      "questionID": 40,
+      "question": "Welche Funktion hatte der Zensor?",
+      "options": ["Zählte Bürger & Sittenaufsicht", "Oberster Richter", "Heerführer"],
+      "correct": 0
+    },
+    {
+      "questionID": 41,
+      "question": "Wie nennt man die Karriereleiter römischer Ämter?",
+      "options": ["Cursus honorum", "Limes Romanus", "Mos maiorum"],
+      "correct": 0
+    },
+    {
+      "questionID": 42,
+      "question": "Wer bildete das Erste Triumvirat?",
+      "options": ["Caesar, Pompeius, Crassus", "Octavian, Antonius, Lepidus", "Marius, Sulla, Cato"],
+      "correct": 0
+    },
+    {
+      "questionID": 43,
+      "question": "Welche Schlacht beendete 31 v. Chr. die Republik faktisch?",
+      "options": ["Actium", "Cannae", "Philippi"],
+      "correct": 0
+    },
+    {
+      "questionID": 44,
+      "question": "Welche Stadt war der Seehafen Roms?",
+      "options": ["Ostia", "Ravenna", "Neapel"],
+      "correct": 0
+    },
+    {
+      "questionID": 45,
+      "question": "Auf wie vielen Hügeln wurde Rom erbaut?",
+      "options": ["Fünf", "Sieben", "Neun"],
+      "correct": 1
+    },
+    {
+      "questionID": 46,
+      "question": "Welcher Fluss durchfließt Rom?",
+      "options": ["Tiber", "Po", "Arno"],
+      "correct": 0
+    },
+    {
+      "questionID": 47,
+      "question": "Wie nennt man die römische Grenzbefestigung in Germanien?",
+      "options": ["Limes", "Murus", "Fossa"],
+      "correct": 0
+    },
+    {
+      "questionID": 48,
+      "question": "In welcher Provinz lag Alexandria?",
+      "options": ["Hispania", "Aegyptus", "Asia"],
+      "correct": 1
+    },
+    {
+      "questionID": 49,
+      "question": "Welche Festzeit ist für Geschenke und Rollenwechsel bekannt?",
+      "options": ["Lupercalia", "Saturnalia", "Parilia"],
+      "correct": 1
+    },
+    {
+      "questionID": 50,
+      "question": "Wer war der Kriegsgott der Römer?",
+      "options": ["Mars", "Ares", "Bellona"],
+      "correct": 0
+    },
+    {
+      "questionID": 51,
+      "question": "Welche Göttin gehörte zur kapitolinischen Trias?",
+      "options": ["Diana", "Juno", "Vesta"],
+      "correct": 1
+    },
+    {
+      "questionID": 52,
+      "question": "Welche Priesterinnen hüteten das heilige Feuer?",
+      "options": ["Sibyllen", "Vestalinnen", "Auguren"],
+      "correct": 1
+    },
+    {
+      "questionID": 53,
+      "question": "Wer schrieb die „Aeneis“?",
+      "options": ["Vergil", "Ovid", "Horaz"],
+      "correct": 0
+    },
+    {
+      "questionID": 54,
+      "question": "Wessen Werk sind die „Metamorphosen“?",
+      "options": ["Vergil", "Ovid", "Livius"],
+      "correct": 1
+    },
+    {
+      "questionID": 55,
+      "question": "Welches Werk verfasste Livius?",
+      "options": ["Ab urbe condita", "De bello Gallico", "Germania"],
+      "correct": 0
+    },
+    {
+      "questionID": 56,
+      "question": "Wer ist der Autor von „De bello Gallico“?",
+      "options": ["Caesar", "Tacitus", "Sallust"],
+      "correct": 0
+    },
+    {
+      "questionID": 57,
+      "question": "Welcher Historiker schrieb die „Germania“?",
+      "options": ["Tacitus", "Plinius der Ältere", "Polybius"],
+      "correct": 0
+    },
+    {
+      "questionID": 58,
+      "question": "Wem wird „Veni, vidi, vici“ zugeschrieben?",
+      "options": ["Caesar", "Augustus", "Cicero"],
+      "correct": 0
+    },
+    {
+      "questionID": 59,
+      "question": "Was rief Caesar beim Überschreiten des Rubikon?",
+      "options": ["Alea iacta est", "E pur si muove", "Panem et circenses"],
+      "correct": 0
+    },
+    {
+      "questionID": 60,
+      "question": "Wofür steht „SPQR“?",
+      "options": ["Senat und Volk von Rom", "Sieg und Preis quer Rom", "Geheime Prätorianer"],
+      "correct": 0
+    },
+    {
+      "questionID": 61,
+      "question": "Wer beendete den Dritten Punischen Krieg 146 v. Chr.?",
+      "options": ["Scipio Aemilianus", "Hannibal", "Pyrrhus"],
+      "correct": 0
+    },
+    {
+      "questionID": 62,
+      "question": "In welcher Schlacht besiegte Scipio Hannibal 202 v. Chr.?",
+      "options": ["Zama", "Cannae", "Trebia"],
+      "correct": 0
+    },
+    {
+      "questionID": 63,
+      "question": "Welche Schlacht war ein großer Sieg Hannibals 216 v. Chr.?",
+      "options": ["Cannae", "Zama", "Alesia"],
+      "correct": 0
+    },
+    {
+      "questionID": 64,
+      "question": "Was war Alesia im Jahr 52 v. Chr.?",
+      "options": ["Gallische Hauptstadt", "Ort von Caesars Belagerung", "Griechische Kolonie"],
+      "correct": 1
+    },
+    {
+      "questionID": 65,
+      "question": "Wie hieß Caesars bedeutendster gallischer Gegner?",
+      "options": ["Vercingetorix", "Brennus", "Boudicca"],
+      "correct": 0
+    },
+    {
+      "questionID": 66,
+      "question": "Welche Dynastie begann mit Augustus?",
+      "options": ["Julisch-claudisch", "Flavisch", "Severisch"],
+      "correct": 0
+    },
+    {
+      "questionID": 67,
+      "question": "Unter welchem Kaiser entstand das Pantheon in seiner heutigen Form?",
+      "options": ["Hadrian", "Trajan", "Nero"],
+      "correct": 0
+    },
+    {
+      "questionID": 68,
+      "question": "Wofür war der Circus Maximus berühmt?",
+      "options": ["Wagenrennen", "Gladiatorenkämpfe", "Theaterstücke"],
+      "correct": 0
+    },
+    {
+      "questionID": 69,
+      "question": "Was war die „Cloaca Maxima“?",
+      "options": ["Großer Tempel", "Abwasserkanal", "Stadtmauer"],
+      "correct": 1
+    },
+    {
+      "questionID": 70,
+      "question": "Was ist ein Aquädukt?",
+      "options": ["Wasserleitung", "Waffentyp", "Steuer"],
+      "correct": 0
+    },
+    {
+      "questionID": 71,
+      "question": "Was bezeichnet „Annona“?",
+      "options": ["Getreideversorgung Roms", "Kaiserliche Leibgarde", "Götterstatue"],
+      "correct": 0
+    },
+    {
+      "questionID": 72,
+      "question": "Wie nennt man die Kaiser 98–180 n. Chr. im Ruf besonderer Tüchtigkeit?",
+      "options": ["Die schlechten Kaiser", "Die fünf guten Kaiser", "Die Tetrarchie"],
+      "correct": 1
+    },
+    {
+      "questionID": 73,
+      "question": "Welche Provinz eroberte Trajan nördlich der Donau?",
+      "options": ["Dakien", "Moesien", "Pannonien"],
+      "correct": 0
+    },
+    {
+      "questionID": 74,
+      "question": "Welcher Kaiser führte die Tetrarchie ein?",
+      "options": ["Diokletian", "Gallienus", "Caracalla"],
+      "correct": 0
+    },
+    {
+      "questionID": 75,
+      "question": "Welche Staatsform hatte Rom vor 509 v. Chr.?",
+      "options": ["Monarchie", "Republik", "Kaiserreich"],
+      "correct": 0
+    },
+    {
+      "questionID": 76,
+      "question": "Was war ein „Patronus“?",
+      "options": ["Tempelwächter", "Schutzherr eines Klienten", "Sklavenaufseher"],
+      "correct": 1
+    },
+    {
+      "questionID": 77,
+      "question": "Wie heißt die römische Fischsauce?",
+      "options": ["Liquamen/Garum", "Defrutum", "Mulsum"],
+      "correct": 0
+    },
+    {
+      "questionID": 78,
+      "question": "Was ist ein „Thermopolium“?",
+      "options": ["Straßenküche/Imbiss", "Badehaus", "Steinbruch"],
+      "correct": 0
+    },
+    {
+      "questionID": 79,
+      "question": "Welche Gladiatorenkombination ist typisch?",
+      "options": ["Murmillo gegen Retiarius", "Retiarius gegen Retiarius", "Thraex gegen Thraex"],
+      "correct": 0
+    },
+    {
+      "questionID": 80,
+      "question": "Welche römische Schreibweise steht korrekt für 49?",
+      "options": ["XLIX", "IL", "XXXXVIIII"],
+      "correct": 0
+    },
+    {
+      "questionID": 81,
+      "question": "Wofür steht „D“ in römischen Zahlen?",
+      "options": ["50", "500", "5000"],
+      "correct": 1
+    },
+    {
+      "questionID": 82,
+      "question": "Welche Gottheit hat zwei Gesichter und blickt in Vergangenheit und Zukunft?",
+      "options": ["Janus", "Faunus", "Sol"],
+      "correct": 0
+    },
+    {
+      "questionID": 83,
+      "question": "Welches Fest erinnert an die Sage um Romulus und Remus?",
+      "options": ["Lupercalia", "Saturnalia", "Floralia"],
+      "correct": 0
+    },
+    {
+      "questionID": 84,
+      "question": "Welche Amtsträger hatten ein Veto-Recht (Interzession)?",
+      "options": ["Volkstribunen", "Prätoren", "Konsuln"],
+      "correct": 0
+    },
+    {
+      "questionID": 85,
+      "question": "Welche römische Einheit umfasste grob 480–600 Soldaten?",
+      "options": ["Kohorte", "Manipel", "Zenturie"],
+      "correct": 0
+    },
+    {
+      "questionID": 86,
+      "question": "Was war eine „Zenturie“?",
+      "options": ["Reiterverband", "Hundertschaft", "Senatsfraktion"],
+      "correct": 1
+    },
+    {
+      "questionID": 87,
+      "question": "Wie hieß die Leibgarde der Kaiser?",
+      "options": ["Praetorianer", "Legionäre", "Hastati"],
+      "correct": 0
+    },
+    {
+      "questionID": 88,
+      "question": "Welche Straße führte von Rom nach Ariminum (Rimini)?",
+      "options": ["Via Flaminia", "Via Latina", "Via Claudia Augusta"],
+      "correct": 0
+    },
+    {
+      "questionID": 89,
+      "question": "Welcher Kaiser ließ eine Mauer nördlich des Hadrianswalls errichten?",
+      "options": ["Antoninus Pius", "Claudius", "Trajan"],
+      "correct": 0
+    },
+    {
+      "questionID": 90,
+      "question": "Wer führte der Legende nach Elefanten über die Alpen?",
+      "options": ["Hannibal", "Mithridates", "Xerxes"],
+      "correct": 0
+    },
+    {
+      "questionID": 91,
+      "question": "Welche Stadt wurde 79 n. Chr. neben Pompeji zerstört?",
+      "options": ["Herculaneum", "Cumae", "Capua"],
+      "correct": 0
+    },
+    {
+      "questionID": 92,
+      "question": "Welche römische Amtsbezeichnung entspricht grob einem Richter?",
+      "options": ["Prätor", "Ädil", "Tribun"],
+      "correct": 0
+    },
+    {
+      "questionID": 93,
+      "question": "Was war der „Mos maiorum“?",
+      "options": ["Das Heer der Älteren", "Überlieferte Sitte der Vorfahren", "Ein Tempelbezirk"],
+      "correct": 1
+    },
+    {
+      "questionID": 94,
+      "question": "Welche Provinz galt als „Kornkammer“ Roms?",
+      "options": ["Aegyptus", "Britannia", "Dacia"],
+      "correct": 0
+    },
+    {
+      "questionID": 95,
+      "question": "Welche Städte wurden im 5. Jh. n. Chr. Hauptstadt Westroms?",
+      "options": ["Mediolanum und später Ravenna", "Rom blieb Hauptstadt", "Neapel"],
+      "correct": 0
+    },
+    {
+      "questionID": 96,
+      "question": "Welche Volksversammlung wählte die Konsuln?",
+      "options": ["Zenturiatskomitien", "Tributkomitien", "Senat"],
+      "correct": 0
+    },
+    {
+      "questionID": 97,
+      "question": "Welche Sprache wurde in Ostrom (später) Verwaltungssprache?",
+      "options": ["Griechisch", "Latein", "Koptisch"],
+      "correct": 0
+    },
+    {
+      "questionID": 98,
+      "question": "Was bezeichnet „Latrinae“?",
+      "options": ["Markthallen", "Toiletten", "Speicherhallen"],
+      "correct": 1
+    },
+    {
+      "questionID": 99,
+      "question": "Was sind die „Iden“ im römischen Kalender?",
+      "options": ["1. des Monats", "13./15. des Monats", "Ende des Monats"],
+      "correct": 1
+    },
+    {
+      "questionID": 100,
+      "question": "Welche Kunstform ist typisch für römische Fußböden?",
+      "options": ["Mosaik", "Fresko", "Relief"],
+      "correct": 0
+    },
+    {
+      "questionID": 101,
+      "question": "Wer war der Lehrer und Berater Neros?",
+      "options": ["Seneca", "Platon", "Cicero"],
+      "correct": 0
+    },
+    {
+      "questionID": 102,
+      "question": "In welcher Schlacht besiegte Arminius Varus?",
+      "options": ["Teutoburger Wald", "Allia", "Arausio"],
+      "correct": 0
+    }
+  ]
+
 ]
